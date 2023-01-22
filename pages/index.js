@@ -16,7 +16,7 @@ export default function Home() {
 		method: 'POST',
 		headers: {
 			'content-type': 'application/x-www-form-urlencoded',
-			'X-RapidAPI-Key': '76daa1d9f9msh146f5519b984badp190553jsnc60493370c25',
+			'X-RapidAPI-Key': process.env.NEXT_PUBLIC_API_KEY,
 			'X-RapidAPI-Host': 'url-shortener-service.p.rapidapi.com'
 		},
 		body: encodedParams
